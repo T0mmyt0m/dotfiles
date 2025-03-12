@@ -1,7 +1,7 @@
-# Bash Completion Setup Script Documentation
+# Bash Completion Script Documentation
 
 ## Overview
-This script automates the detection and installation of `bash-completion`, a package that enables advanced tab completion for commands such as `git`, `docker`, and others. It checks whether `bash-completion` is installed, prompts the user to install it if missing, and reminds them to reload their environment for changes to take effect.
+This script automates the detection and installation of `bash-completion`, a package that enables advanced tab completion for commands such as `git` and etc. It checks whether `bash-completion` is installed, prompts the user to install it if missing, and reminds them to reload their environment for changes to take effect.
 
 ## Features
 - **Checks if `bash-completion` is installed** before prompting for installation.
