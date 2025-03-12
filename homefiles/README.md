@@ -94,4 +94,6 @@ If installed correctly, it should return:
 ```
 _init_completion is a function
 ```
+## Sources
+https://github.com/vikaskyadav/awesome-bash-alias - for the "awesome-bash-alias" lists.
 
