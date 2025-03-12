@@ -59,7 +59,7 @@ If the installation fails, the script suggests a manual installation method.
 ## Usage Instructions
 1. **Run the script**:
    ```bash
-   ./bashrc_setup_script.sh
+   ./bash-completion.sh
    ```
 2. If `bash-completion` is missing, the script prompts:
    ```
