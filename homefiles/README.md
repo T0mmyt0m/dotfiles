@@ -1,7 +1,7 @@
 # Bash Completion Setup Script Documentation
 
 ## Overview
-This script automates the detection and installation of `bash-completion`, a package that enables advanced tab completion for commands such as `git`, `docker`, and others. It checks whether `bash-completion` is installed and prompts the user to install it if missing.
+This script automates the detection and installation of `bash-completion`, a package that enables advanced tab completion for commands such as `git`, `docker`, and others. It checks whether `bash-completion` is installed, prompts the user to install it if missing, and reminds them to reload their environment for changes to take effect.
 
 ## Features
 - **Checks if `bash-completion` is installed** before prompting for installation.
@@ -9,6 +9,7 @@ This script automates the detection and installation of `bash-completion`, a pac
 - **Automatically installs `bash-completion`** if the user agrees.
 - **Rechecks installation success** after installation attempt.
 - **Provides manual installation instructions** if installation fails.
+- **Reminds the user to reload their environment** (`source ~/.bashrc` or log out and back in).
 
 ## Script Breakdown
 
@@ -56,6 +57,14 @@ else
 ```
 If the installation fails, the script suggests a manual installation method.
 
+### 7. Remind the User to Reload Their Environment
+```bash
+echo "To apply changes, please reload your environment:"
+echo "  - Run: source ~/.bashrc"
+echo "  - Or log out and log back in"
+```
+After installation, the script **reminds the user** to reload their environment to activate `bash-completion`.
+
 ## Usage Instructions
 1. **Run the script**:
    ```bash
@@ -69,6 +78,12 @@ If the installation fails, the script suggests a manual installation method.
    ```
 3. If the user selects **`y`**, the script installs `bash-completion` and confirms installation.
 4. If the user selects **`n`**, it suggests a manual installation command.
+5. After installation, the script **reminds the user** to reload their environment:
+   ```
+   To apply changes, please reload your environment:
+     - Run: source ~/.bashrc
+     - Or log out and log back in
+   ```
 
 ## Verification
 After running the script, verify that `bash-completion` works by running:
@@ -79,5 +94,4 @@ If installed correctly, it should return:
 ```
 _init_completion is a function
 ```
-
 
