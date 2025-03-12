@@ -31,3 +31,4 @@ check_package
 echo "To apply changes, please reload your environment:"
 echo "  - Run: source ~/.bashrc"
 echo "  - Or log out and log back in"
+echo "  - bye now!!!!"
