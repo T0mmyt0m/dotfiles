@@ -96,4 +96,4 @@ _init_completion is a function
 ```
 ## Sources
 https://github.com/vikaskyadav/awesome-bash-alias - for the "awesome-bash-alias" lists.
-
+https://opensource.com/article/18/3/creating-bash-completion-script - walkthrough on making the script.
