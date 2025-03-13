@@ -36,4 +36,4 @@ echo "Symbolic link created: ~/.bash_aliases -> $BASH_ALIASES_SRC"
 # Remind the user to reload their environment
 echo "To apply changes, please run:"
 echo "  source ~/.bashrc"
-echo "Or log out and log back in."
+echo "log out and log back in."
