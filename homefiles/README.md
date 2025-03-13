@@ -33,6 +33,6 @@ This script automates the setup of a user's Bash environment by:
 ## Citation
 This script and documentation were generated with assistance from OpenAI's ChatGPT based on the following prompt:
 > "Write a script that outputs to the user packages that need to be installed for their .bashrc file, copies or symbolically links the .bash_aliases file in their dotfiles repository to the user's home directory, and reminds the user to reload their environment."
->
-> Additionally, the method for retrieving a symlink target was referenced from [The Linux Code - Bash Script to Get Symlink Target](https://thelinuxcode.com/bash-script-get-symlink-target/).
+
+Additionally, the method for retrieving a symlink target was referenced from [The Linux Code - Bash Script to Get Symlink Target](https://thelinuxcode.com/bash-script-get-symlink-target/).
 
