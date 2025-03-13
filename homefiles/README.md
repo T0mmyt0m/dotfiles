@@ -36,3 +36,4 @@ This script and documentation were generated with assistance from [OpenAI's Chat
 
 Additionally, the method for retrieving a symlink target was referenced from [The Linux Code - Bash Script to Get Symlink Target](https://thelinuxcode.com/bash-script-get-symlink-target/).
 
+Alias list reference guide from [awesome-bash-alias](https://github.com/vikaskyadav/awesome-bash-alias)
