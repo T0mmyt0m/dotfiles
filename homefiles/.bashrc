@@ -92,19 +92,6 @@ alias ll='ls -l'
 alias la='ls -A'
 alias l='ls -CF'
 
-# Custom alias
-alias du1="du -d 1"
-
-# Install & Update utilties
-
-alias sai="sudo apt install"
-alias sai="sudo apt-get install"
-alias sau="sudo apt update"
-alias sau="sudo apt-get update"
-alias update="sudo apt update"
-alias update="yum update"
-alias updatey="yum -y update"
-
 # Alias definitions.
 # You may want to put all your additions into a separate file like
 # ~/.bash_aliases, instead of adding them here directly.
