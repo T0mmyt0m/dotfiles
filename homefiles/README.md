@@ -18,11 +18,11 @@ This script automates the setup of a user's Bash environment by:
 ## Usage
 1. **Make the script executable:**
    ```bash
-   chmod +x setup_bashrc.sh
+   chmod +x script.sh
    ```
 2. **Run the script:**
    ```bash
-   ./setup_bashrc.sh
+   ./script.sh
    ```
 3. **Reload Bash configuration:**
    ```bash
