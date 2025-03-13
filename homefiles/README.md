@@ -7,7 +7,7 @@ This script automates the setup of a user's Bash environment by:
 - Reminding the user to reload their Bash environment (`source ~/.bashrc`) or log out and back in for the changes to take effect.
 
 ## Files Involved
-### `setup_bashrc.sh`
+### `script.sh`
 - A Bash script that automates the process of checking dependencies, managing `.bash_aliases`, and notifying the user about environment reloading.
 - Ensures `.bash_aliases` is correctly linked to `~/dotfiles/.bash_aliases`, maintaining consistency between the dotfiles repository and the active shell environment.
 
