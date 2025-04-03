@@ -1,7 +1,7 @@
 # Homefiles
 This repository contains a script that installs anaconda.
 
-Script.sh: An installation script for Anaconda Python distribution on Debian-based Linux systems (Ubuntu, Kali Linux).
+`Script.sh`: An installation script for Anaconda Python distribution on Debian-based Linux systems (Ubuntu, Kali Linux).
 
 ## Script Details
 The `Script.sh` script automates Anaconda installation with several safety features:
@@ -31,5 +31,6 @@ The prompt used was:
 
 ## Helpful Resources
 
-[Anaconda Documentation](https://www.anaconda.com/docs/getting-started/anaconda/install) - Official Anaconda installation and usage documentation
-[Bash Scripting Guide](https://linuxconfig.org/bash-scripting-tutorial) - Comprehensive guide for writing Bash scripts and understanding Linux scripting concepts
+[Anaconda Documentation](https://www.anaconda.com/docs/getting-started/anaconda/install) - Official Anaconda installation and usage documentation.
+
+[Bash Scripting Guide](https://linuxconfig.org/bash-scripting-tutorial) - Comprehensive guide for writing Bash scripts and understanding Linux scripting concepts.
