@@ -30,9 +30,9 @@ if command -v conda &> /dev/null || command -v anaconda &> /dev/null; then
     exit 1
 fi
 
-# Install dependencies
+# Install dependencies - Updated package list
 apt update -q
-apt install -y wget libgl1-mesa-glx libegl1-mesa libxrandr2 libxss1 libxcursor1 libxcomposite1 libasound2 libxi6 libxtst6
+apt install -y wget libgl1 libegl1 libxrandr2 libxss1 libxcursor1 libxcomposite1 libasound2 libxi6 libxtst6
 
 # Get the latest Anaconda version
 ANACONDA_VERSION="2023.09-0"
