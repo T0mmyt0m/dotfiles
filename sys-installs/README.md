@@ -24,14 +24,12 @@ Make the script executable
 
 # Credits and Citations
 This script was created with assistance from [ChatGPT](https://chatgpt.com/auth/login).
+
 The prompt used was:
+
 ```"Help me create a script that installs anaconda ubuntu linux"```
 
+## Helpful Resources
 
-
-
-
-Helpful Resources
-
-Anaconda Documentation - Official Anaconda installation and usage documentation
-Bash Scripting Guide - Comprehensive guide for writing Bash scripts and understanding Linux scripting concepts
+[Anaconda Documentation](https://www.anaconda.com/docs/getting-started/anaconda/install) - Official Anaconda installation and usage documentation
+[Bash Scripting Guide](https://linuxconfig.org/bash-scripting-tutorial) - Comprehensive guide for writing Bash scripts and understanding Linux scripting concepts
