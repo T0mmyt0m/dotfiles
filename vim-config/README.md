@@ -31,24 +31,19 @@ A helper script to automate your Vim setup.
   vim +PluginInstall +qall
 Warning: This script does not generate the .vimrc — you must manually write it.
 
-Describes:
+### Usage Instructions
 
-Script behavior
-
-How to run it
-
-Plugin citations
-
-Usage Instructions
-bash
-Copy code
+```
 cd vim-config
 ./setup-vim.sh
-Plugins Used
-Vundle: https://github.com/VundleVim/Vundle.vim
+```
 
-Jellybeans Colorscheme: https://github.com/nanotech/jellybeans.vim
+References
 
-Indent Guides: https://github.com/nathanaelkane/vim-indent-guides
+[Vundle](https://github.com/VundleVim/Vundle.vim)
 
-Fugitive: https://github.com/tpope/vim-fugitive
+[Jellybeans Colorscheme](https://github.com/nanotech/jellybeans.vim)
+
+[Indent Guides](https://github.com/nathanaelkane/vim-indent-guides)
+
+[Fugitive](https://github.com/tpope/vim-fugitive)
