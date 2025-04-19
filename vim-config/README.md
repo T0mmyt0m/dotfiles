@@ -38,7 +38,7 @@ cd vim-config
 ./setup-vim.sh
 ```
 
-References
+## References
 
 [Vundle](https://github.com/VundleVim/Vundle.vim)
 
