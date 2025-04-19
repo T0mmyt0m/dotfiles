@@ -29,9 +29,8 @@ A helper script to automate your Vim setup.
 - Installs all plugins listed in `.vimrc` via:
   ```bash
   vim +PluginInstall +qall
-💡 This script does not generate the .vimrc — you must manually write it.
+Warning: This script does not generate the .vimrc — you must manually write it.
 
-3. README.md (this file)
 Describes:
 
 Script behavior
