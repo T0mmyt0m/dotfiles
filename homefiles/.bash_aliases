@@ -10,3 +10,5 @@ alias update="sudo apt update"
 alias update="yum update"
 alias updatey="yum -y update"
 
+# Show device cpu name
+alias cpu='lscpu | grep "Model name"'
